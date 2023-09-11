@@ -1,0 +1,135 @@
+body {
+    background-color: #212121;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-family: 'Impact';
+    letter-spacing: 5px;
+    font-size: 300%;
+    position: absolute;
+    top: 10%;
+    left: 40%
+}
+.reset {
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 125px;
+    height: 50px;
+    font-family: Impact;
+    font-size: 150%;
+}
+h2 {
+    color: white;
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    font-size: 100%;
+    font-family: Impact;
+    letter-spacing: 3px;
+}
+
+.entry {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    height: 100px;
+    width: 250px;
+    border: solid white;
+    overflow: hidden;
+    font-family: Impact;
+    font-size: 150%;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: white;
+}
+
+.check {
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 125px;
+    height: 50px;
+    font-family: Impact;
+    font-size: 150%;
+    top: 73%;
+    left: 28.5%;
+}
+
+h3 {
+    color: white;
+    font-family: Impact;
+    left: 70%;
+    top: 50%;
+    font-size: 150%;
+    position: absolute;
+    letter-spacing: 3px;
+}
+
+.curScore {
+    color: white;
+    font-family: Impact;
+    left: 70%;
+    top: 65%;
+    font-size: 150%;
+    position: absolute;
+    letter-spacing: 3px;
+}
+.curScore2 {
+    color: white;
+    font-family: Impact;
+    left: 77%;
+    top: 65.2%;
+    font-size: 150%;
+    position: absolute;
+    letter-spacing: 3px;
+}
+
+.highScore {
+    color: white;
+    font-family: Impact;
+    left: 70%;
+    top: 60%;
+    font-size: 150%;
+    position: absolute;
+    letter-spacing: 3px;
+}
+.highScore2 {
+    color: white;
+    font-family: Impact;
+    left: 80%;
+    top: 60%;
+    font-size: 150%;
+    position: absolute;
+    letter-spacing: 3px;
+}
+
+/* Shapes */
+.rectangle {
+    left: 0;
+    top: 27%;
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    background-color: white;
+}
+.square {
+    position: absolute;
+    left: 48%;
+    top: 22%;
+    height: 95px;
+    width: 100px;
+    background-color: white;
+    font-family: Impact;
+    font-size: 400%;
+    text-align: center;
+    padding: 5px 0
+}

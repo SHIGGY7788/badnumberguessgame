@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Title</title>
+</head>
+<body id="bg">
+
+<h1> Guess My Number </h1>
+<button class="reset" onclick="reload()">Again! </button>
+<h2>(Between 1 and 20)</h2>
+<div class="rectangle"></div>
+<div class="square">?</div>
+
+<input type="tel" class="entry" id="entry">
+<button class="check" onclick="checkNum()">Check!</button>
+
+<h3> Start Guessing...</h3>
+<p class="curScore"> 💯 Score: </p>
+<p class="curScore2" id="curScore">0</p>
+<p class="highScore"> 🏅 Highscore: </p>
+<p class="highScore2" id="highScore"> 0 </p>
+
+<script src="js/index.js"></script>
+</body>
+</html>
